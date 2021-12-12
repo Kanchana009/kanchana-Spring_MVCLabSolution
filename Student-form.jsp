@@ -1,8 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+a<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
+
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -18,18 +19,16 @@
 <title>Save Student</title>
 </head>
 
-
 <body>
 
 	<div class="container">
 
-		<h3>Student Directory</h3>
+		<h3>COLLEGE FEST</h3>
 		<hr>
 
 		<p class="h4 mb-4">Student</p>
 
-		
-<form action="/SpringProject/students/save" method="POST">
+		<form action="/collegefest/students/save" method="POST">
 
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Student.id}" />
@@ -65,12 +64,21 @@
 		</form>
 
 		<hr>
-		<a href="/SpringProject/students/list">Back to Students List</a>
+		<a href="/collegefest/students/list">Back to Students List</a>
 
 	</div>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
 
 
 
